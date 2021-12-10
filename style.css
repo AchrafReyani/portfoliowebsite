@@ -2,3 +2,23 @@ html {
   scroll-behavior: smooth;
   background-color: #336600;
  }
+
+* {
+  text-align: center;
+}
+
+.menu-button {
+  padding: 50px 100px 50px 100px;
+  margin: 0px 100px 0px 100px
+  background-color: green;
+}
+
+.home{
+  margin: 400px 0px 400px 0px
+}
+
+.project {
+  padding: 200px 50px 200px 50px;
+  margin:  0px 50px 0px 50px;
+  background-color: green;
+}
