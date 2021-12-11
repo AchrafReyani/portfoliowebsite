@@ -4,25 +4,42 @@ html {
  }
 
 * {
-  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
+
 
 .menu-button {
   padding: 50px 100px 50px 100px;
   margin: 0px 100px 0px 100px
-  background-color: green;
 }
 
-.home{
+.home-page{
   margin: 400px 0px 400px 0px
+
 }
 
-.project {
+.projects-page {
+
+}
+
+.resume-page {
+
+}
+
+.contact-page {
+
+}
+
+.contact-box {
+
+}
+
+.project-box {
   padding: 200px 50px 200px 50px;
   margin:  0px 50px 0px 50px;
   background-color: green;
 }
 
-.contact-button {
-  margin:  0px 50px 0px 50px;
+.footer {
+  background-color: green;
 }
