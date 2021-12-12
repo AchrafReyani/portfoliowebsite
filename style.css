@@ -63,6 +63,11 @@ html {
   background-color: green;
 }
 
-.footer {
-  background-color: green;
+footer {
+  background-color: black;
+  color: #336600;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  padding-left: 10%;
 }
