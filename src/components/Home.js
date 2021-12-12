@@ -3,22 +3,29 @@ import React from 'react';
 import '../styles/home.css';
 function Home() {
   return (
-    <div class="home-page">
-    <div class="titel">
-      <h1>I'm Achraf, nice to meet you!</h1>
+    <div className="home-page">
+    <div className="titel">
     </div>
 
-    <div class="menu-box">
 
+    <div className="photo-box">
+    <img src="./media/home-image.png"/>
+    </div>
+
+    <div className="menu-box">
+    <h1>I'm Achraf, nice to meet you!</h1>
       <a  href="#projects">
-      <button class="menu-button"><h2>projects</h2></button></a>
+      <button className="menu-button"><h2>projects</h2></button></a>
 
       <a href="#resume">
-      <button class="menu-button"><h2>resume</h2></button></a>
+      <button className="menu-button"><h2>resume</h2></button></a>
 
       <a href="#contact">
-      <button class="menu-button"><h2>contact</h2></button></a>
+      <button className="menu-button"><h2>contact</h2></button></a>
     </div>
+
+
+
   </div>
   );
 }

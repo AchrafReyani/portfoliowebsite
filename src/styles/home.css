@@ -2,19 +2,26 @@
     width: 80%;
     height: 100vh;
     margin: auto;
-    display: flex;
+    display: table;
     align-items: center;
   
   }
 
   .menu-box {
-    margin: auto;
+    display: table-cell;
+    vertical-align: middle;
   }
 
 .menu-button {
-    margin: auto;
+    margin-inline: 10px;
+    padding-inline: 20px;
     border-radius: 25px;
     background-color: black;
     color: #336600;
+    
   }
   
+.photo-box {
+  display: table-cell;
+  vertical-align: middle;
+}
