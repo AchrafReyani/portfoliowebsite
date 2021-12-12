@@ -1,0 +1,20 @@
+.contact-page-inner {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.contact-box {
+    margin: auto;
+    text-align: center;
+  
+  }
+
+.contact-page-outer {
+  background-color: black;
+  color: #336600;
+  height: 300px;
+  width: 100%;
+  display: flex;
+}

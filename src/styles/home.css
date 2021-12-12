@@ -1,0 +1,20 @@
+.home-page{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  
+  }
+
+  .menu-box {
+    margin: auto;
+  }
+
+.menu-button {
+    margin: auto;
+    border-radius: 25px;
+    background-color: black;
+    color: #336600;
+  }
+  
