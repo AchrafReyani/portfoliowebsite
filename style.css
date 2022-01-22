@@ -67,7 +67,7 @@ footer p {
 }
 .about-page {
   width: 80%;
-  margin: auto;
+  margin: auto auto 100px auto;
 }
 
 .contact-page {
