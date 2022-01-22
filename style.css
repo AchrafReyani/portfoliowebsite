@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #336600;
+ }
+
+ body {
+   padding: 0;
+   margin: 0;
+ }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+footer p {
+  font-size: 2vw;
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.me-image {
+  margin: auto;
+  border-radius: 25px;
+}
+
+.menu-button {
+  margin: auto;
+  border-radius: 25px;
+  background-color: black;
+  color: #336600;
+}
+
+.home-page{
+  width: 80%;
+  margin: 0 auto 20%;
+  display: flex;
+  align-items: center;
+
+}
+
+.projects-page {
+  width: 80%;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.project-box {
+  padding: 5% 5% 1% 5%;
+  margin:  1%;
+  background-color: black;
+  display: inline-block;
+  width: 24%;
+  color: #336600;
+  border-radius: 25px;
+}
+
+.project-button {
+  float: right;
+}
+.about-page {
+  width: 80%;
+  margin: auto;
+}
+
+.contact-page {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.menu-box {
+  margin: auto;
+}
+
+.contact-box {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+
+}
+
+
+
+footer {
+  background-color: black;
+  color: #336600;
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+}
