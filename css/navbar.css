@@ -1,0 +1,87 @@
+/* Add an active class to highlight the current page */
+.active{
+	background-color:black;
+	color:#336600;
+}
+
+.topnavbar{
+	background-color:black;
+
+}
+
+.topnavbar ul{
+	padding:0;
+	margin:0;
+	display:flex;
+	list-style-type:none;
+  align-items: center;
+}
+
+.topnavbar li{
+  align-items: center;
+  
+  margin: auto;
+  text-align: center;
+}
+
+.topnavbar a{
+	display:inline-flex;
+	text-decoration:none;
+	color:#336600;
+	padding:19px 20px;
+}
+
+/* Navigation Links */
+.nav-items{
+	text-align:center;
+	overflow:hidden;
+	clear:both;
+	transition: 0.3s ease;
+}
+
+.nav-items a:hover{
+	background-color:#336600;
+	color:black;
+	transition: 0.3s ease;
+}
+
+/* Hide Checkbox */
+input#menu-icon-input{
+	display:none;
+}
+
+/* Hide Menu Icon in large screen display (above 800px wide screen */
+.topnavbar label{
+	padding:10px 20px;
+	float:right;
+	font-size:2rem;
+	color:#336600;
+    display:none;
+    cursor:pointer;
+    transition:0.3s ease;
+}
+
+.topnavbar label:hover{
+	background-color:#DDD;
+	color:black;
+	transition: 0.3s ease;
+}
+
+/* Media Queries */
+@media screen and (max-width: 400px){
+
+    /* To display one link in a row */
+    .topnavbar ul{display:block}
+
+    /* Display the menu icon */
+    .topnavbar label{display:inline-flex;}
+
+    /* Looks good while hovering */
+    .topnavbar a{display:block;}
+
+    /* Hide the links until the menu icon is clicked */
+    .nav-items{max-height:0;}
+
+    /* Display links */
+    input:checked ~ .nav-items{max-height:100%;}
+}

@@ -26,8 +26,10 @@ footer p {
 }
 
 .me-image {
-  margin: auto;
+  border: 20px solid black;
   border-radius: 25px;
+  width: 50%;
+  max-width:400px;
 }
 
 .menu-button {
@@ -39,7 +41,7 @@ footer p {
 
 .home-page{
   width: 80%;
-  margin: 0 auto 20%;
+  margin: 100px auto 100px;
   display: flex;
   align-items: center;
 
@@ -48,23 +50,19 @@ footer p {
 .projects-page {
   width: 80%;
   margin: auto;
-  display: block;
-  position: relative;
 }
 
-.project-box {
-  padding: 5% 5% 1% 5%;
-  margin:  1%;
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.column {
   background-color: black;
-  display: inline-block;
-  width: 24%;
-  color: #336600;
-  border-radius: 25px;
 }
 
-.project-button {
-  float: right;
-}
 .about-page {
   width: 80%;
   margin: auto auto 100px auto;
@@ -72,11 +70,6 @@ footer p {
 
 .contact-page {
   width: 80%;
-
-
-
-
-
 }
 
 .menu-box {
