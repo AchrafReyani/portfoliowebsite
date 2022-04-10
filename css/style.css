@@ -8,10 +8,10 @@ html {
    margin: 0;
  }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+ img {
+   max-width: 100%;
+   height: auto;
+ }
 
 h2 {
   font-size: 30px;
@@ -21,15 +21,16 @@ footer p {
   font-size: 2vw;
 }
 
-* {
-  font-family: 'Raleway', sans-serif;
+footer {
+  background-color: black;
+  color: #336600;
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
 }
 
-.me-image {
-  border: 20px solid black;
-  border-radius: 25px;
-  width: 50%;
-  max-width:400px;
+* {
+  font-family: 'Raleway', sans-serif;
 }
 
 .menu-button {
@@ -37,14 +38,6 @@ footer p {
   border-radius: 25px;
   background-color: black;
   color: #336600;
-}
-
-.home-page{
-  width: 80%;
-  margin: 100px auto 100px;
-  display: flex;
-  align-items: center;
-
 }
 
 .about-page {
@@ -57,11 +50,6 @@ footer p {
   margin: auto;
 }
 
-.projects {
-  width: 80%;
-  margin: auto;
-}
-
 .menu-box {
   margin: auto;
 }
@@ -70,14 +58,4 @@ footer p {
   width: 20%;
   margin: auto;
   text-align: center;
-
-}
-
-
-footer {
-  background-color: black;
-  color: #336600;
-  padding-top: 10px;
-  width: 100%;
-  display: flex;
 }
