@@ -14,7 +14,7 @@ html {
  }
 
 h2 {
-  font-size: 30px;
+  font-size: 4vw;
 }
 
 footer p {
@@ -33,16 +33,22 @@ footer {
   font-family: 'Raleway', sans-serif;
 }
 
-.menu-button {
-  margin: auto;
+.resume-button {
+  margin: auto 60% auto auto;
+  padding: 5px;
   border-radius: 25px;
   background-color: black;
   color: #336600;
+
 }
 
-.about-page {
+.main-content {
   width: 80%;
   margin: auto auto 100px auto;
+}
+
+.main-content p {
+  font-size: 4vw;
 }
 
 .contact {
@@ -59,3 +65,17 @@ footer {
   margin: auto;
   text-align: center;
 }
+
+@media screen and (min-width: 1000px) {
+  h2 {
+    font-size: 30px;
+  }
+  .contact-box img {
+    max-width: 120px;
+  }
+  .contact-box p {
+    font-size: 20px;
+  }
+  .main-content p {
+    font-size: 20px;
+  }
