@@ -47,29 +47,19 @@ footer p {
 
 }
 
-.projects-page {
-  width: 80%;
-  margin: auto;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-
-.column {
-  background-color: black;
-}
-
 .about-page {
   width: 80%;
   margin: auto auto 100px auto;
 }
 
-.contact-page {
+.contact {
   width: 80%;
+  margin: auto;
+}
+
+.projects {
+  width: 80%;
+  margin: auto;
 }
 
 .menu-box {
@@ -82,7 +72,6 @@ footer p {
   text-align: center;
 
 }
-
 
 
 footer {
