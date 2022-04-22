@@ -8,13 +8,13 @@ html {
    margin: 0;
  }
 
- img {
-   max-width: 100%;
-   height: auto;
- }
-
 h2 {
   font-size: 4vw;
+}
+
+footer img {
+  max-width: 100%;
+  height: auto;
 }
 
 footer p {
@@ -33,22 +33,21 @@ footer {
   font-family: 'Raleway', sans-serif;
 }
 
-.resume-button {
-  margin: auto 60% auto auto;
-  padding: 5px;
-  border-radius: 25px;
-  background-color: black;
-  color: #336600;
-
-}
-
 .main-content {
   width: 80%;
   margin: auto auto 100px auto;
 }
 
+.main-content h2 {
+  font-size: 6vw;
+}
+
 .main-content p {
-  font-size: 4vw;
+  font-size: 6vw;
+}
+
+.contact h2{
+  font-size: 6vw;
 }
 
 .contact {
@@ -66,9 +65,21 @@ footer {
   text-align: center;
 }
 
+.me {
+  border: 1vh solid black;
+  border-radius: 50%;
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 1000px) {
   h2 {
     font-size: 30px;
+  }
+  .me {
+    width: 200px;
   }
   .contact-box img {
     max-width: 120px;
@@ -77,5 +88,11 @@ footer {
     font-size: 20px;
   }
   .main-content p {
-    font-size: 20px;
+    font-size: 50px;
+  }
+  .main-content h2 {
+    font-size: 60px;
+  }
+  .contact h2 {
+    font-size: 60px;
   }
