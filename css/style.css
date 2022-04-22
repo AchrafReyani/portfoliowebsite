@@ -3,6 +3,10 @@ html {
   background-color: #336600;
  }
 
+ header {
+   margin-top: 3vh;
+ }
+
  body {
    padding: 0;
    margin: 0;
@@ -88,11 +92,11 @@ footer {
     font-size: 20px;
   }
   .main-content p {
-    font-size: 50px;
+    font-size: 40px;
   }
   .main-content h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .contact h2 {
-    font-size: 60px;
+    font-size: 50px;
   }

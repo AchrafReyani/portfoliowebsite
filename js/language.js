@@ -13,7 +13,7 @@ function toggleLanguage(language) {
     else if (language == "日本語") {
 
       about.innerHTML ="俺様について";
-      bio.innerHTML ="俺はアシュラフだ";
+      bio.innerHTML ="ヤッホー、名前はアシュラフ。コンピューター科学の三年生です。現在ロッテルダムに住んでる。趣味はバレーボールと履歴書も見てください。ちなみによくその秘密のボタンを見つけたね。じゃあ、これで失礼します。バイバイ。";
       contact.innerHTML ="連絡を取り合う";
     }
     else if (language == "English") {
