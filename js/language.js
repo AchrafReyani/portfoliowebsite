@@ -8,7 +8,7 @@ function toggleLanguage(language) {
     if (language == "Nederlands") {
 
       about.innerHTML ="Over mij";
-      bio.innerHTML ="Hallo, mijn naam is Achraf, ben 23 jaar oud en ben wonend in Rotterdam. Ik studeer momenteel technische informatica aan de hogeschool rotterdam en zit alweer in mijn derde jaar. Hobbies zijn onder andere volleyball en in mijn vrije tijd meer leren over game engine architecture. Voor meer informatie neem ook zeker een kijkje op mijn CV. Bedankt voor het lezen!";
+      bio.innerHTML ="Hallo, mijn naam is Achraf, ben 23 jaar oud en ben wonend in Rotterdam. Ik studeer momenteel technische informatica aan de hogeschool rotterdam en zit alweer in mijn derde jaar. Hobbies zijn onder andere volleyball en in mijn vrije tijd meer leren over game engine architecture. Voor meer informatie neem ook zeker een kijkje op mijn " + "<a href='resume/CV.pdf' target='_blank'>CV</a>" + ". Bedankt voor het lezen!";
       contact.innerHTML ="Contact";
       phone.innerHTML = "06 87 25 20 97";
     }
