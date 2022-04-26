@@ -15,14 +15,14 @@ function toggleLanguage(language) {
     else if (language == "日本語") {
 
       about.innerHTML ="俺様について";
-      bio.innerHTML ="ヤッホー、名前はアシュラフ。コンピューター科学の三年生です。年齢は23歳です。血液型は分かりません。現在ロッテルダムに住んでる。趣味はバレーボールとゆき。履歴書も見てください。ちなみによくその秘密のボタンを見つかりましたね。じゃあ、これで失礼します。バイバイ。";
+      bio.innerHTML ="ヤッホー、名前はアシュラフ。コンピューター科学の三年生です。年齢は23歳です。血液型は分かりません。現在ロッテルダムに住んでる。趣味はバレーボールとゲームエンジンのアーキテクチャ。" + "<a href='resume/CV.pdf' target='_blank'>履歴書</a>" + "も見てください。ちなみによくその秘密のボタンを見つかりましたね。じゃあ、これで失礼します。バイバイ。";
       contact.innerHTML ="連絡を取り合う";
       phone.innerHTML = "+31 6 87 25 20 97";
     }
     else if (language == "English") {
 
       about.innerHTML ="About me";
-      bio.innerHTML ="My name is Achraf. I enjoy programming. I currently live in the netherlands and am a third year computer science student. My hobbies include volleyball and learning about game engine architecture. Thanks for taking a look, feel free to check out my resume.";
+      bio.innerHTML ="My name is Achraf. I enjoy programming. I currently live in the netherlands and am a third year computer science student. My hobbies include volleyball and learning about game engine architecture. Thanks for taking a look, feel free to check out my " + "<a href='resume/CV.pdf' target='_blank'>resume</a>" + ".";
       contact.innerHTML ="Contact me!";
       phone.innerHTML = "+31 6 87 25 20 97";
     }
